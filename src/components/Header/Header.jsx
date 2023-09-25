@@ -18,7 +18,7 @@ const Header = () => {
             }`}>Statistics</NavLink></li>
     </>
     return (
-<div className="navbar  container mt-6">
+<div className="navbar  container mt-6 relative">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">

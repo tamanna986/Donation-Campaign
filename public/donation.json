@@ -1,0 +1,135 @@
+[
+    {
+      "id": 1,
+      "picture": "https://i.ibb.co/tb4cJp9/Rectangle-4284.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg": "#daeff8",
+      "card_bg": "#f0f5fa",
+      "text_color": "#0052FF",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "99.99"
+    },
+    {
+      "id": 2,
+      "picture": "https://i.ibb.co/1zZcgqG/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg": "#ffabab",
+      "card_bg": "#fbcbc8",
+      "text_color": "#FF444A",
+      "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "price": "49.99"
+    },
+    {
+      "id": 3,
+      "picture": "https://i.ibb.co/V32VXJ3/Rectangle-4287.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg": "#d2eb99",
+      "card_bg": "#ddefb3",
+      "text_color": "#79C23F",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "price": "29.99"
+    },
+    {
+      "id": 4,
+      "picture": "https://i.ibb.co/M7kYSGj/Food.png",
+      "title": "Better Food ",
+      "category": "Food",
+      "category_bg": "#eeb981",
+      "card_bg": "#f3cea6",
+      "text_color": "#F87147",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": "149.99"
+    },
+    {
+      "id": 5,
+      "picture": "https://i.ibb.co/tb4cJp9/Rectangle-4284.png",
+      "title": "Clean Environment ",
+      "category": "Health",
+      "category_bg": "#daeff8",
+      "card_bg": "#f0f5fa",
+      "text_color": "#0052FF",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "price": "79.99"
+    },
+    {
+      "id": 6,
+      "picture": "https://i.ibb.co/1zZcgqG/Education.png",
+      "title": "Child Education",
+      "category": "Education",
+      "category_bg": "#ffabab",
+      "card_bg": "#fbcbc8",
+      "text_color": "#FF444A",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "59.99"
+    },
+    {
+      "id": 7,
+      "picture": "https://i.ibb.co/V32VXJ3/Rectangle-4287.png",
+      "title": "Winter Cloth",
+      "category": "Clothing",
+      "category_bg": "#d2eb99",
+      "card_bg": "#ddefb3",
+      "text_color": "#79C23F",
+      "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "price": "199.99"
+    },
+    {
+      "id": 8,
+      "picture": "https://i.ibb.co/M7kYSGj/Food.png",
+      "title": "Old citizen food",
+      "category": "Food",
+      "category_bg": "#eeb981",
+      "card_bg": "#f3cea6",
+      "text_color": "#F87147",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "price": "39.99"
+    },
+    {
+      "id": 9,
+      "picture": "https://i.ibb.co/tb4cJp9/Rectangle-4284.png",
+      "title": "Preventing seasonal flue",
+      "category": "Health",
+      "category_bg": "#daeff8",
+      "card_bg": "#f0f5fa",
+      "text_color": "#0052FF",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": "99.99"
+    },
+    {
+      "id": 10,
+      "picture": "https://i.ibb.co/1zZcgqG/Education.png",
+      "title": "Social education",
+      "category": "Education",
+      "category_bg": "#ffabab",
+      "card_bg": "#fbcbc8",
+      "text_color": "#FF444A",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "price": "69.99"
+    },
+    {
+      "id": 11,
+      "picture": "https://i.ibb.co/V32VXJ3/Rectangle-4287.png",
+      "title": "Summer cloth campaign",
+      "category": "Clothing",
+      "category_bg": "#d2eb99",
+      "card_bg": "#ddefb3",
+      "text_color": "#79C23F",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "49.99"
+    },
+    {
+      "id": 12,
+      "picture": "https://i.ibb.co/M7kYSGj/Food.png",
+      "title": "Children food",
+      "category": "Food",
+      "category_bg": "#eeb981",
+      "card_bg": "#f3cea6",
+      "text_color": "#F87147",
+      "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "price": "79.99"
+    }
+  ]
+  
