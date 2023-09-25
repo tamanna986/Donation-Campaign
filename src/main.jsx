@@ -9,12 +9,14 @@ import Header from './components/Header/Header';
 import Root from './components/root/root';
 import Donation from './components/Donation/Donation';
 import Statistics from './components/Statistics/Statistics';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
 
   {
     path: "/",
     element: <Root></Root> ,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/Header',
