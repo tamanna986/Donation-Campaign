@@ -7,7 +7,7 @@
       "category_bg": "#daeff8",
       "card_bg": "#f0f5fa",
       "text_color": "#0052FF",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "99.99"
     },
     {
@@ -18,7 +18,7 @@
       "category_bg": "#ffabab",
       "card_bg": "#fbcbc8",
       "text_color": "#FF444A",
-      "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "49.99"
     },
     {
@@ -29,7 +29,7 @@
       "category_bg": "#d2eb99",
       "card_bg": "#ddefb3",
       "text_color": "#79C23F",
-      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "29.99"
     },
     {
@@ -40,7 +40,7 @@
       "category_bg": "#eeb981",
       "card_bg": "#f3cea6",
       "text_color": "#F87147",
-      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "149.99"
     },
     {
@@ -51,7 +51,7 @@
       "category_bg": "#daeff8",
       "card_bg": "#f0f5fa",
       "text_color": "#0052FF",
-      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "79.99"
     },
     {
@@ -62,7 +62,7 @@
       "category_bg": "#ffabab",
       "card_bg": "#fbcbc8",
       "text_color": "#FF444A",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "59.99"
     },
     {
@@ -73,7 +73,7 @@
       "category_bg": "#d2eb99",
       "card_bg": "#ddefb3",
       "text_color": "#79C23F",
-      "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "199.99"
     },
     {
@@ -84,7 +84,7 @@
       "category_bg": "#eeb981",
       "card_bg": "#f3cea6",
       "text_color": "#F87147",
-      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "39.99"
     },
     {
@@ -95,7 +95,7 @@
       "category_bg": "#daeff8",
       "card_bg": "#f0f5fa",
       "text_color": "#0052FF",
-      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "99.99"
     },
     {
@@ -106,7 +106,7 @@
       "category_bg": "#ffabab",
       "card_bg": "#fbcbc8",
       "text_color": "#FF444A",
-      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "69.99"
     },
     {
@@ -117,7 +117,7 @@
       "category_bg": "#d2eb99",
       "card_bg": "#ddefb3",
       "text_color": "#79C23F",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "49.99"
     },
     {
@@ -128,7 +128,7 @@
       "category_bg": "#eeb981",
       "card_bg": "#f3cea6",
       "text_color": "#F87147",
-      "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "79.99"
     }
   ]
