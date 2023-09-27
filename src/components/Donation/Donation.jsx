@@ -7,14 +7,16 @@ import Donated from "../Donated/Donated";
 const Donation = () => {
     const donations = useLoaderData();
     const [gotDonations, setGotDonations] = useState([])
-    const [donationDataLength, setDonationDataLength] = useState(4)
+    const [donationDataLength, setDonationDataLength] = useState(4);
 
     useEffect(() => {
         const storedDonations = getStoredDonations()
 
         const recievedDonations = [];
         for (const id of storedDonations) {
-            const donation = donations.find(donation => donation.id === id)
+            
+            const donation = donations.find(donation => donation.id === id);
+            console.log(donations)
             if (donation) {
                 recievedDonations.push(donation)
             }
@@ -39,9 +41,11 @@ const Donation = () => {
 
 
             <div className="mt-10 mb-20 w-32  mx-auto">
-                <div className={donationDataLength === gotDonations.length && 'hidden '}>
+                {
+                    gotDonations.length>4 && <div className={donationDataLength === gotDonations.length ? 'hidden' : ''}>
                     <button onClick={() => setDonationDataLength(gotDonations.length)} className="btn bg-green-800 text-white ">See All</button>
                 </div>
+                }
             </div>
         </div>
     );

@@ -10,32 +10,37 @@ const DonationDetails = () => {
     const { id } = useParams();
     const idInteger = parseInt(id);
     const donation = donations.find(donation => donation.id === idInteger);
-     // for button background color
-     const buttonBg = {
-        backgroundColor: donation.text_color,
-      };
 
-      const toastify = () =>{
+    // for backgrounf image
+    const backgroundImg = {
+        backgroundImage: `url(${(donation.picture)}) `,
+
+    }
+
+    // for button background color
+    const buttonBg = {
+        backgroundColor: donation.text_color,
+    };
+
+    const toastify = () => {
         SavedDonations(idInteger);
         toast("You have successfully donated! Thank you.");
-      } 
-    
+    }
+
     return (
-        <div className="mt-24 w-[400px] md:w-[670px] lg:w-[1100px] mx-auto" >
+        <div className="mt-24 w-[380px] md:w-[670px] lg:w-[1100px] mx-auto" >
             {
 
                 <div>
-                    <div className="hero  mb-20 w-[400px]  md:w-[670px] lg:w-[1100px] " style={{height:640,
-                    weight: 390 ,
-                     backgroundImage: `url(${(donation.picture)})` }}>
-                        <div className="w-[400px] md:w-[670px] lg:w-[1100px] h-[30px] p-10 hero-overlay bg-opacity-60 mt-[560px] flex items-center">
-                            <button onClick={toastify} className="btn btn-primary border-none normal-case " style = {buttonBg}>Donate ${donation.price}</button>
+                    <div className="hero min-h-screen mx-auto w-[370px]  mb-20  md:w-[670px] lg:w-[1100px] " style={backgroundImg}>
+                        <div className=" md:w-[670px] lg:w-[1100px] h-[30px] p-10 hero-overlay bg-opacity-60 mt-[560px] flex items-center">
+                            <button onClick={toastify} className="btn btn-primary border-none normal-case " style={buttonBg}>Donate ${donation.price}</button>
                         </div>
                     </div>
 
-                    <div className="mb-20">
-                     <h2 className="text-2xl font-semibold">{donation.title}</h2>
-                     <p>{donation.description}</p>
+                    <div className="mb-20 mx-2 md:mx-0 w-[370px] md:w-full">
+                        <h2 className="text-2xl font-semibold">{donation.title}</h2>
+                        <p>{donation.description}</p>
                     </div>
                 </div>
             }
