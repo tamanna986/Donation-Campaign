@@ -34,12 +34,12 @@ const DonationDetails = () => {
                 <div>
                     <div className="hero min-h-screen mx-auto w-[370px]  mb-20  md:w-[670px] lg:w-[1100px] " style={backgroundImg}>
                         <div className=" md:w-[670px] lg:w-[1100px] h-[30px] p-10 hero-overlay bg-opacity-60 mt-[560px] flex items-center">
-                            {/* <button onClick={toastify} className="btn btn-primary border-none normal-case " style={buttonBg}>Donate ${donation.price}</button> */}
+
                         </div>
-                        {/* try */}
+
 
                     </div>
-                    <div className=" absolute -bottom-[453px] left-48">
+                    <div className=" absolute -bottom-[485px] left-10 md:-bottom-[490px] md:left-16 lg:-bottom-[453px] lg:left-48">
                         <button onClick={toastify} className="btn btn-primary border-none normal-case text-white " style={buttonBg}>Donate ${donation.price}</button>
                         </div>
 
