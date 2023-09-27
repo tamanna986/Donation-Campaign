@@ -11,19 +11,24 @@ const Statistics = () => {
 
     }, [])
 
-    const totalDonation = donations.length
+    const totalDonation = parseFloat(donations.length);
     // getting localstorage data
     const storedDonations = getStoredDonations();
-    console.log(storedDonations.length)
-    const yourDonation = (parseInt(storedDonations.length))
+    // console.log(storedDonations.length)
+    const yourDonations = (parseFloat(storedDonations.length));
+    const yourDonation = ((yourDonations / totalDonation) * 100).toFixed(1);
+    const reaminingDonation = (100 - yourDonation).toFixed(1);
+
+
+
 
 
     return (
         <div>
             <PieChartWithCustomizedLabel
                 data={[
-                    { name: "Your Donations", value: yourDonation },
-                    { name: "Remaining Donations", value: totalDonation },
+                    { name: "Your Donations", value: parseFloat(yourDonation) },
+                    { name: "Remaining Donations", value: parseFloat(reaminingDonation) },
                 ]}
             />
             <div className="md:flex items-center justify-start gap-8 mx-auto w-96 md:w-[620px] px-8">
@@ -35,6 +40,7 @@ const Statistics = () => {
                     <div><h2>Total Donation</h2></div>
                     <div className=" bg-orange-400 w-32 h-2 rounded-md"></div>
                 </div>
+
             </div>
         </div>
     );

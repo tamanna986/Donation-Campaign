@@ -16,7 +16,6 @@ const Donation = () => {
         for (const id of storedDonations) {
             
             const donation = donations.find(donation => donation.id === id);
-            console.log(donations)
             if (donation) {
                 recievedDonations.push(donation)
             }

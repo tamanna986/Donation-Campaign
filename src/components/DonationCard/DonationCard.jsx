@@ -21,7 +21,7 @@ const DonationCard = ({donation}) => {
     
     <div className="card h-[330px]  bg-base-100 shadow-xl mt-10" style={cardBg}>
         <Link to = {`/DonationCard/${id}`}>
-  <figure><img className="w-[295px] h-48" src={picture}  /></figure>
+  <figure><img className="w-[355px] h-48" src={picture}  /></figure>
   <div className=" p-4 space-y-3 ">
     <h2 className="text-center rounded-md p-3 w-[95px]" style={categoryBg}>{category}</h2>
     <p className="text-xl font-bold" style={categoryText}>{title}</p>

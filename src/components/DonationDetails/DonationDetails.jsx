@@ -26,7 +26,7 @@ const DonationDetails = () => {
         SavedDonations(idInteger);
         toast("You have successfully donated! Thank you.");
     }
-
+ 
     return (
         <div className="mt-24 w-[380px] md:w-[670px] lg:w-[1100px] mx-auto" >
             {
@@ -34,9 +34,14 @@ const DonationDetails = () => {
                 <div>
                     <div className="hero min-h-screen mx-auto w-[370px]  mb-20  md:w-[670px] lg:w-[1100px] " style={backgroundImg}>
                         <div className=" md:w-[670px] lg:w-[1100px] h-[30px] p-10 hero-overlay bg-opacity-60 mt-[560px] flex items-center">
-                            <button onClick={toastify} className="btn btn-primary border-none normal-case " style={buttonBg}>Donate ${donation.price}</button>
+                            {/* <button onClick={toastify} className="btn btn-primary border-none normal-case " style={buttonBg}>Donate ${donation.price}</button> */}
                         </div>
+                        {/* try */}
+
                     </div>
+                    <div className=" absolute -bottom-[453px] left-48">
+                        <button onClick={toastify} className="btn btn-primary border-none normal-case text-white " style={buttonBg}>Donate ${donation.price}</button>
+                        </div>
 
                     <div className="mb-20 mx-2 md:mx-0 w-[370px] md:w-full">
                         <h2 className="text-2xl font-semibold">{donation.title}</h2>
