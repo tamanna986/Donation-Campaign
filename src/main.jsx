@@ -16,17 +16,17 @@ const router = createBrowserRouter([
 
   {
     path: "/",
-    element: <Root></Root> ,
+    element: <Root></Root>,
     errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',
-        element:<Home></Home>
+        element: <Home></Home>
       },
       {
         path: '/Donation',
-        element:<Donation></Donation>,
-        loader: ()=> fetch('/donation.json')
+        element: <Donation></Donation>,
+        loader: () => fetch('/donation.json')
       },
       {
         path: '/Statistics',
@@ -35,7 +35,7 @@ const router = createBrowserRouter([
       {
         path: '/DonationCard/:id',
         element: <DonationDetails></DonationDetails>,
-        loader: ()=> fetch('/donation.json')
+        loader: () => fetch('/donation.json')
       }
     ]
   },

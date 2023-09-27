@@ -14,7 +14,7 @@ const Donation = () => {
 
         const recievedDonations = [];
         for (const id of storedDonations) {
-            
+
             const donation = donations.find(donation => donation.id === id);
             if (donation) {
                 recievedDonations.push(donation)
@@ -41,9 +41,9 @@ const Donation = () => {
 
             <div className="mt-10 mb-20 w-32  mx-auto">
                 {
-                    gotDonations.length>4 && <div className={donationDataLength === gotDonations.length ? 'hidden' : ''}>
-                    <button onClick={() => setDonationDataLength(gotDonations.length)} className="btn bg-green-800 text-white ">See All</button>
-                </div>
+                    gotDonations.length > 4 && <div className={donationDataLength === gotDonations.length ? 'hidden' : ''}>
+                        <button onClick={() => setDonationDataLength(gotDonations.length)} className="btn bg-green-800 text-white ">See All</button>
+                    </div>
                 }
             </div>
         </div>

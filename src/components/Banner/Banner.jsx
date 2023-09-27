@@ -11,22 +11,28 @@ const Banner = () => {
     }, [])
 
 
-    const [search, setSearch] = useState();
-    const donated = donations.filter(donated => (donated.category).toLowerCase() === search);
+    const [search, setSearch] = useState("");
+    const [submitButtonClicked, setSubmitButtonClicked] = useState(false);
+    // const donated = donations.filter(donated => (donated.category).toLowerCase() === search);
+    // Filter the donations only when the submit button is clicked
+    const donated = submitButtonClicked ? donations.filter(donated => (donated.category).toLowerCase() === search) : []
+
 
 
     // to obtain the search bar text
     const handleSearch = e => {
+        e.preventDefault();
         const searchText = e.target.value
         setSearch(searchText)
+
     }
 
     // to find the mathched categories while clicking search
 
     const handleSearchButton = () => {
-        if (donated) {
-            console.log('found', donated)
-        }
+
+        setSubmitButtonClicked(true);
+
     }
 
     return (
@@ -36,24 +42,22 @@ const Banner = () => {
                     <h1 className=" text-xl md:text-4xl font-semibold text-center">I Grow By Helping People In Need</h1>
                     <div className="flex  justify-center items-center">
 
-                        <input onChange={handleSearch} className=" input rounded-none input-bordered" type="search" name="" id="" placeholder="Search here..." />
+                        <input onBlur={handleSearch} className=" input rounded-none input-bordered" type="search" name="" id="" placeholder="Search here..." />
                         <button onClick={handleSearchButton} className="btn btn-error text-white ">Search</button>
                     </div>
                 </div>
             </div>
 
-
-            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mx-16 mt-20 ">
-                {
-                    donated.map(donation =>
+            {submitButtonClicked && (
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mx-16 mt-20 ">
+                    {donated.map(donation =>
                         <SearchedCards
                             key={donation.id}
                             donation={donation}
-                        >
-                        </SearchedCards>
-                    )
-                }
-            </div>
+                        />
+                    )}
+                </div>
+            )}
         </div>
     );
 };

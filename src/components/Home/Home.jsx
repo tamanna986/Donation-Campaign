@@ -4,10 +4,10 @@ import DonationCards from "../DonationCards/DonationCards";
 const Home = () => {
     return (
         <div>
-        
-        <Banner></Banner>
-        
-        <DonationCards></DonationCards>
+
+            <Banner></Banner>
+
+            <DonationCards></DonationCards>
         </div>
     );
 };

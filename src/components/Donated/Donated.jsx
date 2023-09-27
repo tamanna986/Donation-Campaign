@@ -7,7 +7,7 @@ const Donated = ({ donated }) => {
     };
     const button = {
         backgroundColor: donated.text_color
-       
+
     };
 
     // for category text color
@@ -21,7 +21,7 @@ const Donated = ({ donated }) => {
 
     return (
 
-<div className="card md:card-side bg-base-100 shadow-xl">
+        <div className="card md:card-side bg-base-100 shadow-xl">
             <figure><img className="w-56 h-full" src={donated.picture} /></figure>
             <div className="card-body" style={cardBg}>
                 <h3 className="px-4 py-1 w-28 text-center rounded-md " style={categoryBg}>{donated.category}</h3>
@@ -32,7 +32,7 @@ const Donated = ({ donated }) => {
                 </div>
             </div>
         </div>
-        
+
 
     );
 };
